@@ -1,8 +1,0 @@
-{"trait_abbreviation":"GPC4_chronic_pain_discovery_265K",
-"trait_name":"GPC4 chronic pain discovery 265K",
-"study_year":2018,"population":"European",
-"reference_doi":"-",
-"n_people":265000,
-"genomic_build":"hg19","association_type":"linear","collection":"PAIN-3", 
-"association_metric":"beta","beta_units":"sd","model_association":"additive model", "use_terms":"private","trait_type":"binary",
-"gwas_array":"UK Biobank genotypes version 3"}
