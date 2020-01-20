@@ -1,0 +1,52 @@
+SCHEME STDERR
+AVERAGEFREQ ON
+GENOMICCONTROL OFF
+
+#b       se      Z       p       SNP     A1      A2      N       chr     pos     eaf
+
+MARKER SNP
+ALLELE A1 A2
+EFFECT b
+PVALUE p
+WEIGHT N
+SEPARATOR TAB
+STDERR se
+FREQ eaf 
+
+CUSTOMVARIABLE n_total 
+LABEL n_total AS N
+
+ADDFILTER eaf > 0.0002
+ADDFILTER eaf < 0.9998
+
+PROCESS /mnt/polyomica/projects/mv_gwas/data/chronic_replication/GPC_EA/20181026_REPL_RAW_GPC2.txt
+
+REMOVEFILTERS
+
+#b       se      Z       p       SNP     A1      A2      N       chr     pos     eaf
+
+MARKER SNP
+ALLELE A1 A2
+EFFECT b
+PVALUE p
+WEIGHT N
+SEPARATOR TAB
+STDERR se
+FREQ eaf 
+
+CUSTOMVARIABLE n_total 
+LABEL n_total AS N
+
+ADDFILTER eaf > 0.005
+ADDFILTER eaf < 0.995
+
+PROCESS /mnt/polyomica/projects/mv_gwas/data/chronic_replication/GPC_AA/20181015_REPL_GPC2.txt
+PROCESS /mnt/polyomica/projects/mv_gwas/data/chronic_replication/GPC_SA/20181015_REPL_GPC2.txt
+
+OUTFILE /mnt/polyomica/projects/mv_gwas/MA/GPC_chronic_MA_repl/METAL_out/GPC2/gpc2_rep_raw .tbl
+
+ANALYZE HETEROGENEITY
+
+QUIT
+
+#/home/common/projects/MV_GIANT/METAL_software/generic-metal/metal

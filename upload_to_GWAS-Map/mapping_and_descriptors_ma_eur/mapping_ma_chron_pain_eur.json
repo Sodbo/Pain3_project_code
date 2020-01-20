@@ -1,0 +1,18 @@
+{
+    "levels":
+    [
+        {
+            "MarkerName":"{u_rs_id}",
+			"Allele1":"{u_ea}",
+			"Allele2":"{u_ra}",
+			"Freq1":"{u_eaf}",            
+            "Effect":"{u_beta}",
+            "StdErr":"{u_se}",
+			"P":"{u_p}",
+			"n_total":"{u_n}"
+        }
+    ],
+    "service":{
+	"sep":","
+	}
+}

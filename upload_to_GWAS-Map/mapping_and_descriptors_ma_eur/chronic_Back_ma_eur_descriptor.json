@@ -1,0 +1,8 @@
+{"trait_abbreviation":"Chronic_back_pain_MA_eur_439K",
+"trait_name":"Self reported chronic back pain MA eur 439K",
+"study_year":2018,"population":"European",
+"reference_doi":"-",
+"n_cases":78935,"n_controls":360896,"n_people":439831,
+"genomic_build":"hg19","association_type":"linear","collection":"PAIN-3", 
+"association_metric":"beta","beta_units":"sd","model_association":"additive model", "use_terms":"private","trait_type":"binary",
+"gwas_array":"UK Biobank genotypes version 3"}
