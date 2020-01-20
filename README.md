@@ -1,5 +1,6 @@
-This repository contains all the PAIN-3 project code
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This repository contains all the PAIN-3 project code
+
+```
 Name                           | Type   | Description
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 clumping                       | folder | This folder contains scripts for clumping.
@@ -15,7 +16,7 @@ run_meta-analysis              | folder | This folder contains scripts for runni
 smr_heidi                      | folder | This folder contains scripts for summary data-based Mendelian randomization (SMR) and heterogeneity in dependent instruments (HEIDI) test.
 tables_creation                | folder | This folder contains scripts for creation of tables from Supplementary note.
 upload_to_GWAS-Map             | folder | This folder contains mapping and descritor files, scripts for unification of GWAS summary statistics and scripts for uploading them to the GWAS-Map platform.
-
+```
 
 
 
