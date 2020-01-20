@@ -21,5 +21,5 @@ upload_to_GWAS-Map             | folder | This folder contains mapping and descr
 
 
 
-Note: here and below abbreviation "GCP" (Genetic Principal Component) is a synonym for "GIP" (Genetically Independent Phenotype).
+Note: here and below abbreviation "GPC" (Genetic Principal Component) is a synonym for "GIP" (Genetically Independent Phenotype).
 
