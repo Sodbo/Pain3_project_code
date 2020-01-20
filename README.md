@@ -1,7 +1,7 @@
 This repository contains all the PAIN-3 project code
 
 Name                           | Type   | Description
-_____________________________________________________________________________________________________________________________________________________________________________________________________
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 clumping                       | folder | This folder contains scripts for clumping.
 cojo                           | folder | This folder contains scripts for congenital & joint (COJO) analysis.
 depict                         | folder | This folder contains scripts for Data-driven Expression Prioritized Integration for Complex Traits (DEPICT) analysis.
