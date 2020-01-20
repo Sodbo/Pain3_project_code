@@ -1,0 +1,29 @@
+{
+    "levels":
+    [
+        {
+            "SNP":"{u_rs_id}",
+			"ALLELE1":"{u_ea}",
+			"ALLELE0":"{u_ra}",
+			"A1FREQ":"{u_eaf}",            
+            "BETA":"{u_beta}",
+            "SE":"{u_se}",
+			"P_BOLT_LMM_INF":"{u_p}",
+			"INFO":"{u_info}",
+			"CHR":"{u_chr}",
+			"BP":"{u_bp}"
+        },
+	{
+            "SNP":"{u_chr}:{u_bp}_{u_ea}_{u_ra}",
+			"A1FREQ":"{u_eaf}",            
+            "BETA":"{u_beta}",
+            "SE":"{u_se}",
+			"P_BOLT_LMM_INF":"{u_p}",
+			"INFO":"{u_info}"
+        }
+    ],
+    "service":{
+	"sep":",",
+	"n":174831
+	}
+}

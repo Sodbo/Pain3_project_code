@@ -1,0 +1,4 @@
+{"trait_abbreviation":"back_pain","trait_name":"Self reported back pain","study_year":2018,"population":"European","reference_doi":"-",
+"n_cases":71081,"n_controls":195919,"n_people":267000,"genomic_build":"hg19","association_type":"linear","collection":"PAIN-3", 
+"association_metric":"beta","beta_units":"sd","model_association":"additive model", "use_terms":"private","trait_type":"binary",
+"gwas_array":"UK Biobank genotypes version 3"}

@@ -1,0 +1,19 @@
+{
+	"trait_abbreviation":"Repl_CAU_back_pain",
+	"trait_name":"Self reported back pain,CAU, replication",
+	"study_year":2018,
+	"population":"European",
+	"reference_doi":"-",
+	"n_cases":43870,
+	"n_controls":118933,
+	"n_people":162803,
+	"genomic_build":"hg19",
+	"association_type":"linear",
+	"collection":"PAIN-3",
+	"association_metric":"beta",
+	"beta_units":"sd",
+	"model_association":"additive model",
+	"use_terms":"private",
+	"trait_type":"binary",
+	"gwas_array":"UK Biobank genotypes version 3"
+}

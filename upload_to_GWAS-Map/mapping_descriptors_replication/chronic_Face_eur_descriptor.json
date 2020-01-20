@@ -1,0 +1,8 @@
+{"trait_abbreviation":"Chronic_face_pain_replication_eur_175K",
+"trait_name":"Self reported chronic face pain replication eur 175K",
+"study_year":2018,"population":"European",
+"reference_doi":"-",
+"n_cases":1634,"n_controls":173197,"n_people":174831,
+"genomic_build":"hg19","association_type":"linear","collection":"PAIN-3", 
+"association_metric":"beta","beta_units":"sd","model_association":"additive model", "use_terms":"private","trait_type":"binary",
+"gwas_array":"UK Biobank genotypes version 3"}

@@ -1,0 +1,21 @@
+{
+	"trait_abbreviation":"Repl_ASI_knee_pain",
+	"trait_name":"Self reported knee pain, ASI, replication",
+	"study_year":2018,
+	"population":"Asian",
+	"reference_doi":"-",
+	"n_cases":2132,
+	"n_controls":4971,
+	"n_people":7103,
+	"genomic_build":"hg19",
+	"association_type":"linear",
+	"collection":"PAIN-3",
+ 	"association_metric":"beta",
+	"beta_units":"sd",
+	"model_association":"additive model",
+ 	"use_terms":"private",
+	"trait_type":"binary",
+	"gwas_array":"UK Biobank genotypes version 3"
+}
+
+
