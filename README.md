@@ -3,6 +3,7 @@
 ```
 Name                           | Type   | Description
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+bolt_lmm                       | folder | This folder contains scripts for mixed model association testing using BOLT-LMM algorithm.
 clumping                       | folder | This folder contains scripts for clumping.
 cojo                           | folder | This folder contains scripts for congenital & joint (COJO) analysis.
 depict                         | folder | This folder contains scripts for Data-driven Expression Prioritized Integration for Complex Traits (DEPICT) analysis.
