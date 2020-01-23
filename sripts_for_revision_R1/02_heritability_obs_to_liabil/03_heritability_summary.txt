@@ -1,0 +1,30 @@
+Summary:
+
+Observed scale
+back, 0.072775 (0.002636) 
+hip, 0.047745 (0.002522) 
+knee, 0.069480 (0.002602) 
+neck, 0.058585 (0.002576)
+GIP1, 0.114066 (0.002779)
+GIP2, 0.032393 (0.002431)
+GIP3, 0.022172 (0.002370)
+GIP4, 0.012033 (0.002270) 
+
+Liability scale
+
+Chronic back pain
+h2(l): 0.15623962743293318 se: 0.00565919145191634
+
+Chronic neck pain
+The transformed h2(l): 0.13155969100730291 se: 0.005784719024235082
+
+Chronic hip pain
+The transformed h2(l): 0.146830187183969 se: 0.007755906002261384
+
+Chronic knee pain
+The transformed h2(l): 0.15118066127892726 se: 0.005661659191821655
+
+GIP1       GIP2       GIP3       GIP4 
+0.27727465 0.08942826 0.04392420 0.01936686
+
+For all GIPs conservative estimation of se is 0.0078
