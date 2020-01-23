@@ -33,3 +33,14 @@ four_pains$H2
 
 #back       neck       knee        hip       GPC1       GPC2       GPC3       GPC4 
 #0.15623963 0.13155969 0.15118066 0.14683019 0.27727465 0.08942826 0.04392420 0.01936686 
+
+#LDSC liability
+ldsc_h2_liab=c(0.09051907578091768,0.07125456534275786,0.09413537666452507,0.07228033934749868)
+
+rgs_cov=rg*(sqrt(ldsc_h2_liab%o%ldsc_h2_liab))
+
+four_pains=add_gpc(gcovm=as.matrix(rgs_cov),phem=as.matrix(phe),l=0)
+four_pains$H2
+
+#back       neck       knee        hip       GPC1       GPC2       GPC3       GPC4 
+#0.09051908 0.07125457 0.09413538 0.07228034 0.15423632 0.05412014 0.02322353 0.01046312 

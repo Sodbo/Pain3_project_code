@@ -1,3 +1,5 @@
+#GCTA approach
+
 back, 0.072775 (0.002636) 
 hip, 0.047745 (0.002522) 
 knee, 0.069480 (0.002602) 
@@ -35,4 +37,27 @@ Controls (N = 218,708)
 java -jar gear.jar --cal-k 0.175 --cal-cc 46292,218708 --cal-ho 0.069480 --cal-h2-se 0.002602
 The transformed h2(l): 0.15118066127892726 se: 0.005661659191821655
 
+#### LDSC approach
 
+Observed scale: 
+Tr	Heritability (SNP-based)	SE (heritability)
+Chronic_back_pain_discovery_265K	0.0421629637	0.0027164398
+Chronic_neck_pain_discovery_265K	0.0317304539	0.0023227862
+Chronic_knee_pain_discovery_265K	0.0432629803	0.0025237289
+Chronic_hip_pain_discovery_265K	0.0235035102	0.0021655304
+GIP1_chronic_pain_discovery_265K	0.0662623216	0.0031391418
+GIP2_chronic_pain_discovery_265K	0.0245015513	0.0023714524
+GIP3_chronic_pain_discovery_265K	0.0084817623	0.0018669345
+GIP4_chronic_pain_discovery_265K	0.0041403205	0.0018037764
+
+java -jar gear.jar --cal-k 0.179 --cal-cc 47507,217493 --cal-ho 0.0421629637 --cal-h2-se 0.0027164398
+The transformed h2(l): 0.09051907578091768 se: 0.005831886531033891
+
+java -jar gear.jar --cal-k 0.163 --cal-cc 43287,221713 --cal-ho 0.0317304539 --cal-h2-se 0.0023227862
+The transformed h2(l): 0.07125456534275786 se: 0.005216096863497947
+
+java -jar gear.jar --cal-k 0.175 --cal-cc 46292,218708 --cal-ho 0.0432629803 --cal-h2-se 0.0025237289
+The transformed h2(l): 0.09413537666452507 se: 0.005491350086222505
+
+java -jar gear.jar --cal-k 0.092 --cal-cc 24300,240700 --cal-ho 0.0235035102 --cal-h2-se 0.0021655304
+The transformed h2(l): 0.07228033934749868 se: 0.006659655125868158

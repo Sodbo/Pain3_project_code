@@ -1,5 +1,7 @@
 Summary:
 
+#GCTA 
+
 Observed scale
 back, 0.072775 (0.002636) 
 hip, 0.047745 (0.002522) 
@@ -28,3 +30,33 @@ GIP1       GIP2       GIP3       GIP4
 0.27727465 0.08942826 0.04392420 0.01936686
 
 For all GIPs conservative estimation of se is 0.0078
+
+
+#LD score regression
+
+Observed scale
+Tr	Heritability (SNP-based)	SE (heritability)
+Chronic_back_pain_discovery_265K	0.0421629637	0.0027164398
+Chronic_neck_pain_discovery_265K	0.0317304539	0.0023227862
+Chronic_knee_pain_discovery_265K	0.0432629803	0.0025237289
+Chronic_hip_pain_discovery_265K	0.0235035102	0.0021655304
+GIP1_chronic_pain_discovery_265K	0.0662623216	0.0031391418
+GIP2_chronic_pain_discovery_265K	0.0245015513	0.0023714524
+GIP3_chronic_pain_discovery_265K	0.0084817623	0.0018669345
+GIP4_chronic_pain_discovery_265K	0.0041403205	0.0018037764
+
+Liability scale
+
+back
+The transformed h2(l): 0.09051907578091768 se: 0.005831886531033891
+neck
+The transformed h2(l): 0.07125456534275786 se: 0.005216096863497947
+knee
+The transformed h2(l): 0.09413537666452507 se: 0.005491350086222505
+hip
+The transformed h2(l): 0.07228033934749868 se: 0.006659655125868158
+
+GIP1       GIP2       GIP3       GIP4 
+0.15423632 0.05412014 0.02322353 0.01046312 
+
+For all GIPs conservative estimation of se is 0.007
