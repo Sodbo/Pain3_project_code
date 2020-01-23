@@ -7,6 +7,11 @@ load("data/gcov_phe_matrices.RData")
 four_pains=add_gpc(gcovm=as.matrix(rgs_cov),phem=as.matrix(phe),l=0)
 
 save(file="data/four_pains_GIPs.RData",list="four_pains")
+
+# four_pains$eignes is waht you need as alfa coefficients for GIPs!
+
+
+
 #eigen(rgs_cov)$values/sum(eigen(rgs_cov)$values)
 #[1] 0.78443550 0.14670590 0.04449125 0.02436735
 
