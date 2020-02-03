@@ -65,7 +65,15 @@ for (i in 1:N_snps){
 	}
 }
 
-colnames(G_d)[out]
+l=colnames(G_d)[out]
+l=unlist(strsplit(l,split="_"))[seq(1,by=2,length(l)*2)]
+#[1] "rs3737240_T"   "rs9436127_A"   "rs67627084_T"  "rs13135092_G"
+#[5] "rs140753832_T" "rs274623_G"    "rs967823_G"    "rs62098013_A"
+
+ref=fread("../../../data/chronic_discovery/unification_gpc_results/GPC1/gpc1_output_done.csv",data.table=F)
+table(l%in%ref$rs_id)
+
+ref_c=ref[ref$rs_id%in%l,]
 
 
 
