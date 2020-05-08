@@ -17,6 +17,7 @@ tables_creation                | folder | This folder contains scripts for creat
 upload_to_GWAS-Map             | folder | This folder contains mapping and descritor files, scripts for unification of GWAS summary statistics and scripts for uploading them to the GWAS-Map platform.
 estimation_of_GIP_coefficients | folder | This folder contains scripts for estimatiob of GIP alfa coefficients. 
 scripts_for_revision_R1        | folder | This folder contains scripts that was produced for the revision R1 of original paper. 
+data_for_plots                 | folder | This folder contains source data for graphs and figures from paper. 
 ```
 
 
